@@ -1,0 +1,57 @@
+.Option {
+    display: flex;
+    background-color: #f9f9f9; /* Light grey background for better contrast */
+    border-radius: 0.5rem; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    overflow: hidden; /* Ensure child elements don't overflow */
+    width: 100%;
+    top: 4rem; /* Place below the navbar */
+    left: 0;
+    z-index: 999; /* Ensure the option is below the navbar */
+}
+
+.opt__form {
+    flex: 1;
+    border: 2px solid #ddd; /* Light grey border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Add padding for better spacing */
+    background-color: #fff; /* Ensure consistent background color */
+    transition: border-color 0.3s; /* Smooth transition for border */
+}
+
+.opt__form:hover {
+    border-color: #007bff; /* Highlight border on hover */
+}
+
+.opt__data {
+    flex: 1;
+    display: flex;
+    border: 2px solid #ddd; /* Light grey border */
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Add padding for better spacing */
+    background-color: #fff; /* Ensure consistent background color */
+    transition: border-color 0.3s; /* Smooth transition for border */
+}
+
+.opt__data:hover {
+    border-color: #007bff; /* Highlight border on hover */
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+    font-size: 1rem;
+    color: #333; /* Dark grey color for text */
+    font-weight: bold;
+    border-radius: 0.3rem; /* Add slight rounding to corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+a:hover {
+    background-color: #007bff; /* Highlight background on hover */
+    color: white;
+}

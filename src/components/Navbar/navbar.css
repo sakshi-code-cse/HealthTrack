@@ -1,0 +1,172 @@
+/* Navbar styling */
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: #000000; /* Darker background for a sleek look */
+    padding: 0 1rem; /* Add horizontal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure the navbar takes full width */
+    
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+
+/* Styling for the app name/logo */
+.nav__name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0f0; /* Slightly lighter white for better contrast */
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    min-width: 0; /* Allow flex items to shrink */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.nav__name img {
+    padding: 0 1rem; /* Reduce padding to fit better */
+    height: 70px;
+    width: 280px;
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+/* Styling for network selector */
+.nav__networkSelector {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center; /* Center align the selector */
+    min-width: 0; /* Allow flex items to shrink */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.nav__networkSelector select {
+    border: 2px solid #f0f0f0;
+    padding: 0.5rem 1rem; /* Adjust padding */
+    border-radius: 0.4em;
+    margin: 0 1rem; /* Adjust margin */
+    background-color: #2c2c2c; /* Lighter background for the selector */
+    color: #f0f0f0;
+    font-size: 1rem; /* Increase font size */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s; /* Smooth transition for border */
+    min-width: 0; /* Allow flex items to shrink */
+}
+
+.nav__networkSelector select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+}
+
+/* Styling for balance section */
+.nav__balance {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* Add horizontal padding */
+    min-width: 0; /* Allow flex items to shrink */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.nav__balance-box {
+    border: 2px solid #f0f0f0;
+    border-radius: 1.5rem; /* Reduce border radius */
+    flex: 1;
+    height: 2.5rem;
+    margin: 0 1rem; /* Adjust margin */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+    min-width: 0; /* Allow flex items to shrink */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.nav__balance-box:hover {
+    background-color: #007bff; /* Highlight background on hover */
+    border-color: #007bff; /* Highlight border on hover */
+}
+
+/* Styling for balance and account text */
+.nav__myBalance, .nav__myAccount {
+    color: #f0f0f0;
+    font-size: 1rem; /* Increase font size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0; /* Allow flex items to shrink */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+/* Styling for identicon */
+.identicon {
+    margin-left: 0.5rem;
+    border-radius: 50%; /* Make identicon circular */
+    border: 2px solid #f0f0f0; /* Add border to identicon */
+    padding: 0.2rem; /* Add padding inside border */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .Navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .nav__name {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .nav__name img {
+        height: 50px;
+        width: 200px;
+    }
+
+    .nav__networkSelector, .nav__balance {
+        flex-direction: column;
+        padding: 0.5rem 0;
+    }
+
+    .nav__networkSelector select, .nav__balance-box {
+        width: 100%;
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+    }
+
+    .nav__myBalance, .nav__myAccount {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Navbar {
+        padding: 0.2rem;
+    }
+
+    .nav__name {
+        font-size: 0.9rem;
+    }
+
+    .nav__name img {
+        height: 40px;
+        width: 160px;
+    }
+
+    .nav__networkSelector select, .nav__balance-box {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .nav__myBalance, .nav__myAccount {
+        font-size: 0.8rem;
+    }
+}
